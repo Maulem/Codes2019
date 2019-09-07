@@ -1,0 +1,265 @@
+.barra_lateral {
+	order:0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 65%;
+	margin-left: 4%;
+	background-color: #E8E9EB;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	min-height: 5rem;
+	border-color: #E8E9EB;
+	border-width: 1rem;
+	border-style: solid;
+}
+
+.img_prototipacao_digital {
+	order:1;
+	margin-left: 6%;
+	margin-right: -5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #E8E9EB;
+	border-radius: 0.5rem;
+}
+
+.text_prototipacao_digital {
+	order:2;
+	margin-right: 6%;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 1rem;
+	margin-left: -5%;
+	background-color: #E8E9EB;
+	max-width: 20rem;
+	padding: 1rem;
+	text-align: justify;
+	border-radius: 0.5rem;
+	line-height: 1.2;
+
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+
+.img_jogo {
+	width: 21rem;
+	height: 15rem;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.img_portfolio {
+	width: 26rem;
+	height: 15rem;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.img_dados {
+	width: 26rem;
+	height: 15rem;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.img_app {
+	width: 26rem;
+	height: 15rem;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.text_jogo {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text_portfolio {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text_dados {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text_app {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.barra_pesquisa_categ {
+	width: 25rem;
+	height: 5rem;
+	object-fit: fill;
+}
+
+.link_projetos_prototipacao_fisica {
+	font-family: 'Roboto', sans-serif;
+}
+
+.link_projetos_matematica {
+	font-family: 'Roboto', sans-serif;
+}
+
+.home_icon {
+	display: none;
+}
+
+.cell_text {
+	display: none;
+}
+
+.prototip_img {
+	display: none;
+}
+@media (max-width: 68rem) {
+	.titulo_prototip_digital {
+		display: flex;
+		align-self: center;
+		font-size: 3rem;
+		width: 40rem;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.home_icon {
+		display: flex;
+		height: 5rem;
+		margin-right: 7rem;
+		margin-left: 4rem;
+	}
+
+	.barra_lateral {
+		display: none;
+	}
+
+	.container {
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 0rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 2rem;
+
+	}
+
+	.img_prototipacao_digital {
+		margin-left: 0.6rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-bottom: 1rem;
+	}
+
+	.text_prototipacao_digital {
+		display: none;
+	}
+
+	.cell_text {
+		display: flex;
+		text-align: justify;
+		flex-direction: column;
+	}
+
+	.projeto_jogo {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_portfolio {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_dados {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_app {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.img_jogo {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_portfolio {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_dados {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_app {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.prototip_img {
+		display: flex;
+		height: 26rem;
+		width: 52rem;
+		align-self: center;
+		margin-left: 4rem;
+		margin-top: 2rem;
+		border-radius: 1rem;
+	}
+}
