@@ -13,8 +13,10 @@
 .container {
 	display: flex;
 	flex-direction: row; 
-	margin-left: 5%;
+	margin-left: 5rem;
+	margin-right: 10rem;
 	margin-top: 5%;
+	justify-content: space-evenly;
 }
 
 .section-menu { 
@@ -23,30 +25,32 @@
 	flex-wrap: wrap;
 	background-color: #E8E9EB;
 	max-width: 80%;
+	justify-content: flex-start;
 }
 
 .section-menu-item {
 	display: flex;
 	flex-direction: column;
-	margin: 1.2rem;
+	margin: 1.3rem;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-
 }
+
 .descricao {
 	background-color: #E8E9EB;
 	padding-left: 1rem;
 	flex-direction: column;
 	border-radius: 1rem;
 	display: flex;
-	max-width: 26.4rem;
+	max-width: 23rem;
 	margin-bottom: 15%;
 	font-size: 1.5rem;
+	margin-right: -10rem;
 }
 
 .img_soldador {
-	width: 25.5rem;
-	height: 16rem;
+	width: 22rem;
+	height: 15rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
@@ -57,25 +61,29 @@
 	margin-bottom: 5%;
 	font-family: 'Roboto', sans-serif;
 }
+
 .projetos {
 	margin-left: 10%;
 	padding-top: 1rem;
 	background-color: #E8E9EB;
 	border-radius: 1rem;
 	margin-right: -5rem;
-	max-width: 59%;
+	max-width: 65%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 1rem;
 }
 
 .section-menu-item-image {
 	width: 17rem;
 	height: 12rem;
+	margin-left: 0.8rem;
 }
 
 .section-menu-item-text {
 	font-size: 1rem;
+	margin-top: 0.5rem;
 }
 
 .title_categ {
@@ -90,7 +98,6 @@
 	align-self: flex-start;
 	text-align: justify;
 	padding-right: 1rem;
-	
 }
 
 .title_index {
@@ -104,13 +111,14 @@
 .folhaum {
 	display: none;
 }
+
 @media (max-width: 68rem) {
 
 	.container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-left: 0%;
+		margin-left: 13.5rem;
 
 	}
 
@@ -216,4 +224,10 @@
 		font-size: 3.5rem;
 		margin-right: 5rem;
 	}
+
+	.section-menu-item-image {
+	width: 19rem;
+	height: 12rem;
+	margin-left: 0rem;
+}
 }
